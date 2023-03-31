@@ -12,7 +12,7 @@ app.use(express.urlencoded({
     extended:true
 }))
 const corsOptions ={
-    origin:"https://fabulous-mochi-79b578.netlify.app/", 
+    origin:"http://localhost:3000", 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200,
     allowedHeaders:['Content-Type', 'Authorization']
